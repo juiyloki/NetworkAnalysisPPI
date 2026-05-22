@@ -1,0 +1,167 @@
+ei	N CTs	N variants g	N PMIDs Chemicals	Gene	pLI	Gene Full Name	First Ref.	Last Ref.	N Chemicals	N PMIDs	score	N diseases g	My Score	DSI g	DPI g	N variants gda
+0.9473684210526315	1	158	0	CYP19A1	0.015987	cytochrome P450 family 19 subfamily A member 1	2009	2011	0	2	1.0	42		0.44	0.88	0
+0.84	2	123	0	IGF1	0.75878	insulin like growth factor 1	2011	2011	0	1	1.0	73		0.31	0.92	3
+0.8888888888888888	3	186	0	ESR1	0.99791	estrogen receptor 1			0	0	1.0	81		0.34	0.92	1
+0.9080459770114943	1	7	0	PGR	0.71712	progesterone receptor	2011	2011	0	2	0.95	14		0.4	0.88	0
+0.9206349206349206	2	18	0	ESR2	5.8401E-10	estrogen receptor 2	2007	2007	0	1	0.9	51		0.4	0.88	0
+0.9583333333333334	3	219	0	KRAS	0.99914	KRAS proto-oncogene, GTPase	2013	2013	0	1	0.9	134		0.32	0.88	0
+0.8641975308641975	18	9	0	TNF	0.85687	tumor necrosis factor			0	0	0.9	315		0.25	0.96	1
+0.8285714285714286	6	51	0	IL10	0.48334	interleukin 10	2019	2019	0	1	0.85	129		0.29	0.96	0
+1.0	6	0	0	PRL	1.8838E-9	prolactin	2002	2002	0	1	0.85	43		0.4	0.92	0
+0.8596491228070176	8	5	0	IL1B	0.48761	interleukin 1 beta			0	0	0.85	166		0.28	0.96	1
+0.8181818181818182	1	602	0	EGFR	0.98131	epidermal growth factor receptor	2011	2011	0	1	0.8	104		0.29	0.88	0
+0.9411764705882353	1	389	0	TGFB2	0.99606	transforming growth factor beta 2	2011	2011	0	1	0.8	41		0.33	0.88	0
+0.9803921568627451	0	4	0	PTGS2	1.0	prostaglandin-endoperoxide synthase 2	2015	2015	0	1	0.8	147		0.34	0.88	0
+0.9411764705882353	0	29	0	GREB1	7.2814E-15	growth regulating estrogen receptor binding 1	2012	2012	0	1	0.8	2		0.61	0.58	7
+1.0	0	128	0	NR5A1	0.99998	nuclear receptor subfamily 5 group A member 1	2007	2007	0	1	0.75	24		0.48	0.83	0
+0.9	1	1	0	IGFBP1	3.2836E-14	insulin like growth factor binding protein 1	2011	2011	0	1	0.75	11		0.46	0.88	0
+0.6	1	2	0	CCL11	0.012661	C-C motif chemokine ligand 11	2019	2019	0	1	0.75	16		0.43	0.92	0
+1.0	0	0	0	PTGER2	2.1577E-7	prostaglandin E receptor 2	2009	2009	0	1	0.75	5		0.38	0.88	0
+1.0	1	2	0	ITGB1	0.99977	integrin subunit beta 1	2011	2011	0	1	0.7	16		0.44	0.83	0
+0.75	0	1	0	HSD17B1	8.615E-5	hydroxysteroid 17-beta dehydrogenase 1	2009	2009	0	1	0.7	4		0.62	0.54	0
+0.8333333333333334	2	2	0	IL15	0.002307	interleukin 15	2011	2011	0	1	0.7	9		0.41	0.92	0
+0.8333333333333334	1	1	0	MIR21		microRNA 21	2011	2011	0	1	0.7	17		0.39	0.88	0
+1.0	1	10	0	ABI3BP	8.88E-43	ABI family member 3 binding protein	2011	2011	0	1	0.7	5		0.48	0.88	0
+1.0	1	0	0	IDO1	4.6979E-5	indoleamine 2,3-dioxygenase 1	2011	2011	0	1	0.7	13		0.42	0.92	0
+0.75	0	93	0	SERPINF1	1.8885E-8	serpin family F member 1			0	0	0.7	37		0.46	0.88	0
+1.0	0	16	0	IL1R1	0.71728	interleukin 1 receptor type 1	2011	2011	0	2	0.65	11		0.47	0.88	0
+0.75	0	22	0	NCOA1	1.0	nuclear receptor coactivator 1	2012	2012	0	1	0.65	3		0.54	0.83	0
+0.75	0	7	0	CNR1	0.31479	cannabinoid receptor 1	2011	2011	0	1	0.65	52		0.46	0.88	0
+1.0	0	9	0	KLF9	0.99727	KLF transcription factor 9	2011	2011	0	1	0.65	4		0.56	0.83	0
+1.0	0	3	0	NR4A1	0.0014652	nuclear receptor subfamily 4 group A member 1	2012	2012	0	1	0.65	12		0.44	0.92	0
+0.8571428571428571	0	8	0	PTPN22		protein tyrosine phosphatase non-receptor type 22			0	0	0.65	46		0.45	0.83	0
+0.8333333333333334	0	41	0	HLA-DRB1		major histocompatibility complex, class II, DR beta 1			0	0	0.65	154		0.36	0.88	0
+0.75	0	2	0	TNFRSF1B	0.10032	TNF receptor superfamily member 1B			0	0	0.65	31		0.41	0.88	0
+1.0	0	5	0	AKR1C3	8.7918E-11	aldo-keto reductase family 1 member C3	2011	2015	0	2	0.6	17		0.53	0.75	0
+0.8333333333333334	0	0	0	HSD17B2	7.8467E-14	hydroxysteroid 17-beta dehydrogenase 2	2009	2011	0	2	0.6	2		0.66	0.58	0
+1.0	1	29	0	CD226	3.2952E-5	CD226 molecule	2011	2011	0	1	0.6	4		0.52	0.83	0
+1.0	0	3	0	AKR1C1	3.2841E-10	aldo-keto reductase family 1 member C1	2011	2011	0	1	0.6	7		0.56	0.83	0
+1.0	0	4	0	MYLIP	6.0685E-5	myosin regulatory light chain interacting protein	2011	2011	0	1	0.6	1		0.45	0.88	0
+1.0	0	0	0	HDAC1	0.94922	histone deacetylase 1	2012	2012	0	1	0.6	10		0.42	0.88	0
+1.0	0	1	0	HDAC2	0.98923	histone deacetylase 2	2012	2012	0	1	0.6	22		0.46	0.92	0
+0.6666666666666666	0	41	0	HLA-DPB1	3.3596E-11	major histocompatibility complex, class II, DP beta 1	2008	2008	0	1	0.6	42		0.44	0.88	0
+1.0	0	0	0	CXCL9	0.020244	C-X-C motif chemokine ligand 9	2019	2019	0	1	0.6	15		0.42	0.92	0
+1.0	0	128	0	NR3C2	1.0	nuclear receptor subfamily 3 group C member 2	2012	2012	0	1	0.6	19		0.46	0.92	0
+0.75	0	0	0	PLA2G2A		phospholipase A2 group IIA	2015	2015	0	1	0.6	12		0.5	0.83	0
+0.75	0	5	0	LTF	4.0137E-31	lactotransferrin	2011	2011	0	1	0.6	24		0.43	0.88	0
+1.0	0	37	0	NR2F2	1.0	nuclear receptor subfamily 2 group F member 2	2012	2012	0	1	0.6	13		0.5	0.88	0
+1.0	0	8	0	OLFM4	6.64E-9	olfactomedin 4	2010	2010	0	1	0.6	1		0.53	0.79	0
+1.0	0	2	0	ELAVL1	1.0	ELAV like RNA binding protein 1	2011	2011	0	1	0.6	1		0.46	0.88	0
+1.0	0	21	0	NRP1	1.0	neuropilin 1	2011	2011	0	1	0.6	11		0.44	0.88	0
+1.0	0	1	0	FOS	0.8667	Fos proto-oncogene, AP-1 transcription factor subunit	2013	2013	0	1	0.6	33		0.39	0.88	0
+0.4	0	8	0	ARNT	1.0	aryl hydrocarbon receptor nuclear translocator	2012	2012	0	1	0.6	9		0.54	0.83	0
+1.0	0	5	0	PTGER4	0.92053	prostaglandin E receptor 4	2009	2009	0	1	0.6	11		0.52	0.88	0
+1.0	0	15	0	BMP7	0.95824	bone morphogenetic protein 7	2011	2011	0	1	0.6	17		0.47	0.88	0
+1.0	0	1	0	CXCL14	0.020873	C-X-C motif chemokine ligand 14	2011	2011	0	1	0.6	9		0.49	0.88	0
+1.0	0	0	0	DKK1	2.0476E-5	dickkopf Wnt signaling pathway inhibitor 1	2011	2011	0	1	0.6	6		0.42	0.88	0
+1.0	0	3229	0	DICER1	1.0	dicer 1, ribonuclease III	2011	2011	0	1	0.6	36		0.43	0.83	0
+1.0	0	61	0	TNC	5.41E-13	tenascin C	2011	2011	0	1	0.6	18		0.4	0.83	0
+1.0	0	257	0	IL7R	2.4867E-8	interleukin 7 receptor	2011	2011	0	1	0.6	23		0.44	0.88	0
+1.0	0	209	0	PAX2	0.99739	paired box 2	2012	2012	0	1	0.6	26		0.46	0.83	0
+1.0	0	32	0	PAPPA	0.99647	pappalysin 1	2011	2011	0	1	0.55	12		0.48	0.83	0
+1.0	0	14	0	PRLR	0.99854	prolactin receptor	2011	2011	0	1	0.55	12		0.54	0.83	0
+0.5	0	13	0	KLF13	1.2029E-4	KLF transcription factor 13	2011	2011	0	1	0.55	4		0.57	0.79	0
+1.0	0	1	0	ERRFI1	7.0758E-4	ERBB receptor feedback inhibitor 1	2011	2011	0	1	0.55	2		0.58	0.75	0
+1.0	0	0	0	MTA1	1.0	metastasis associated 1	2012	2012	0	1	0.55	2		0.55	0.79	0
+1.0	0	17	0	SRD5A1	7.4614E-6	steroid 5 alpha-reductase 1	2011	2013	0	2	0.5	8		0.59	0.75	0
+1.0	0	126	0	VCAN	1.0	versican	2011	2011	0	1	0.5	14		0.5	0.79	0
+1.0	0	8	0	MED1	1.0	mediator complex subunit 1	2012	2012	0	1	0.5	4		0.48	0.83	0
+1.0	0	300	0	ACTA2	0.99422	actin alpha 2, smooth muscle	2011	2011	0	1	0.5	32		0.47	0.83	0
+1.0	0	1	0	TRH	0.0013787	thyrotropin releasing hormone	2011	2011	0	1	0.5	25		0.52	0.83	0
+1.0	0	6	0	TAGLN	1.2523E-4	transgelin	2011	2011	0	1	0.5	6		0.53	0.75	0
+1.0	0	1	0	TOB1	0.99983	transducer of ERBB2, 1	2011	2011	0	1	0.5	2		0.6	0.75	0
+1.0	0	7	0	FBLN1	0.95171	fibulin 1	2011	2011	0	1	0.5	7		0.52	0.79	0
+1.0	0	18	0	NTRK3		neurotrophic receptor tyrosine kinase 3	2011	2011	0	1	0.5	26		0.47	0.83	0
+1.0	0	222	0	ENPP1	1.6968E-5	ectonucleotide pyrophosphatase/phosphodiesterase 1	2011	2011	0	1	0.5	22		0.48	0.88	0
+1.0	0	17	0	ABCC4	6.6381E-11	ATP binding cassette subfamily C member 4 (PEL blood group)	2015	2015	0	1	0.5	19		0.54	0.79	0
+0.5	0	11	0	CD55	1.0934E-6	CD55 molecule (Cromer blood group)	2011	2011	0	1	0.5	6		0.47	0.88	0
+1.0	1	7	0	CFD	2.3934E-12	complement factor D	2011	2011	0	1	0.5	15		0.55	0.75	0
+0.5	0	6	0	HBEGF	0.40226	heparin binding EGF like growth factor	2011	2011	0	1	0.5	16		0.48	0.88	0
+1.0	0	1	0	AKR1B1	7.2139E-4	aldo-keto reductase family 1 member B	2015	2015	0	1	0.5	9		0.51	0.83	0
+1.0	0	0	0	SST	0.0050931	somatostatin	2011	2011	0	1	0.5	23		0.47	0.88	0
+1.0	0	2	0	MTA2	1.0	metastasis associated 1 family member 2	2012	2012	0	1	0.5	1		0.58	0.67	0
+1.0	0	1	0	IGFBP6	7.9711E-10	insulin like growth factor binding protein 6	2011	2011	0	1	0.5	6		0.57	0.75	0
+1.0	0	2	0	NR2C1	0.0014659	nuclear receptor subfamily 2 group C member 1	2012	2012	0	1	0.45	2		0.7	0.54	0
+1.0	0	40	0	ITGB8	0.20618	integrin subunit beta 8	2011	2011	0	1	0.45	3		0.59	0.83	1
+1.0	0	96	0	RARB	0.99401	retinoic acid receptor beta	2012	2012	0	1	0.45	23		0.47	0.88	1
+1.0	0	1	0	GPX3	1.0819E-8	glutathione peroxidase 3	2011	2011	0	2	0.4	34		0.47	0.88	0
+1.0	0	17	0	SULF2	3.2649E-5	sulfatase 2	2011	2011	0	2	0.4	3		0.58	0.71	0
+1.0	0	37	0	RASGRP1	0.467	RAS guanyl releasing protein 1	2011	2011	0	1	0.4	11		0.56	0.83	0
+1.0	0	528	0	LRRK2	9.346E-41	leucine rich repeat kinase 2	2011	2011	0	1	0.4	24		0.48	0.88	0
+1.0	0	4	0	CPM	1.1595E-8	carboxypeptidase M	2011	2011	0	1	0.4	3		0.68	0.67	0
+1.0	0	24	0	CNIH3	0.0066158	cornichon family AMPA receptor auxiliary protein 3	2011	2011	0	1	0.4	4		0.76	0.46	0
+1.0	0	3	0	DDX5	1.0	DEAD-box helicase 5	2012	2012	0	1	0.4	2		0.52	0.83	0
+1.0	0	1	0	DIO2	1.3912E-6	iodothyronine deiodinase 2	2011	2011	0	1	0.4	8		0.57	0.79	0
+1.0	0	25	0	FKBP5	0.14038	FKBP prolyl isomerase 5	2011	2011	0	1	0.4	20		0.48	0.92	0
+1.0	0	1	0	TMT1A	0.003007	thiol methyltransferase 1A	2011	2011	0	1	0.4	1		0.64	0.63	0
+1.0	0	0	0	COPS2	0.99996	COP9 signalosome subunit 2	2012	2012	0	1	0.4	1		0.71	0.42	0
+1.0	0	60	0	IHH	0.9355	Indian hedgehog signaling molecule	2011	2011	0	1	0.4	12		0.52	0.75	0
+1.0	0	0	0	NEFM	0.85863	neurofilament medium chain	2011	2011	0	1	0.4	6		0.61	0.75	0
+1.0	0	1	0	RXFP1	5.1833E-9	relaxin family peptide receptor 1	2011	2011	0	1	0.4	1		0.61	0.63	0
+1.0	0	25	0	SUCLG2	4.0462E-12	succinate-CoA ligase GDP-forming subunit beta	2013	2013	0	1	0.4	6		0.64	0.54	0
+1.0	0	63	0	MED17	6.744E-6	mediator complex subunit 17	2012	2012	0	1	0.4	5		0.73	0.5	0
+1.0	0	59	0	MAOA		monoamine oxidase A	2011	2011	0	1	0.4	41		0.47	0.92	0
+1.0	0	4	0	CCL22	0.0080207	C-C motif chemokine ligand 22	2019	2019	0	1	0.4	3		0.49	0.83	0
+1.0	0	95	0	SLC1A1	1.3426E-8	solute carrier family 1 member 1	2011	2011	0	1	0.4	18		0.57	0.75	0
+1.0	0	135	0	SRD5A2	7.5037E-10	steroid 5 alpha-reductase 2	2011	2011	0	1	0.4	14		0.56	0.79	0
+1.0	0	3	0	NR2C2	1.0	nuclear receptor subfamily 2 group C member 2	2012	2012	0	1	0.4	1		0.5	0.83	0
+1.0	0	713	0	ABCC9	6.7453E-6	ATP binding cassette subfamily C member 9	2011	2011	0	1	0.4	54		0.51	0.83	0
+1.0	0	16	0	UST	0.013806	uronyl 2-sulfotransferase	2011	2011	0	1	0.4	5		0.68	0.67	0
+1.0	0	1	0	CXCL13	0.74418	C-X-C motif chemokine ligand 13	2019	2019	0	1	0.4	5		0.44	0.83	0
+1.0	0	0	0	OSR2	0.66285	odd-skipped related transciption factor 2	2011	2011	0	1	0.4	1		0.73	0.46	0
+1.0	0	5	0	DUSP1	0.32476	dual specificity phosphatase 1	2011	2011	0	1	0.4	11		0.47	0.88	0
+1.0	0	13	0	NCOA6	1.0	nuclear receptor coactivator 6	2012	2012	0	1	0.4	7		0.59	0.79	0
+1.0	0	0	0	FMO2	1.568E-5	flavin containing dimethylaniline monoxygenase 2	2011	2011	0	1	0.4	4		0.65	0.67	0
+1.0	0	6	0	SLC7A8	1.4677E-6	solute carrier family 7 member 8	2011	2011	0	1	0.4	3		0.68	0.71	0
+1.0	0	56	0	ANKRD1	7.4905E-9	ankyrin repeat domain 1	2011	2011	0	1	0.4	16		0.55	0.75	0
+1.0	0	133	0	NR3C1	1.0	nuclear receptor subfamily 3 group C member 1	2012	2012	0	1	0.4	47		0.39	0.92	0
+1.0	0	30	0	RBPJ	1.0	recombination signal binding protein for immunoglobulin kappa J region	2012	2012	0	1	0.4	9		0.53	0.79	0
+1.0	0	95	0	ITGA2	2.8962E-16	integrin subunit alpha 2	2011	2011	0	1	0.4	23		0.47	0.83	0
+1.0	0	58	0	LAMB1	4.5176E-13	laminin subunit beta 1	2011	2011	0	1	0.4	15		0.55	0.83	0
+1.0	0	4	0	PTGFR	0.0040024	prostaglandin F receptor	2015	2015	0	1	0.4	3		0.63	0.67	0
+1.0	0	36	0	RORB	1.0	RAR related orphan receptor B	2011	2011	0	1	0.4	7		0.53	0.83	0
+1.0	0	0	0	SELENOP	2.6076E-5	selenoprotein P	2011	2011	0	1	0.4	16		0.54	0.83	0
+1.0	0	0	0	TXNIP	0.0024644	thioredoxin interacting protein	2011	2011	0	1	0.4	5		0.47	0.88	0
+1.0	0	0	0	DEPP1	0.38251	DEPP autophagy regulator 1	2011	2011	0	1	0.4	4		0.68	0.54	0
+1.0	0	0	0	CYP26A1	3.6514E-10	cytochrome P450 family 26 subfamily A member 1	2011	2011	0	1	0.4	7		0.61	0.83	0
+1.0	0	4482	0	FBN1	1.0	fibrillin 1	2011	2011	0	1	0.4	107		0.41	0.79	0
+1.0	0	0	0	ITGB3BP	0.08037	integrin subunit beta 3 binding protein	2012	2012	0	1	0.4	1		0.71	0.5	0
+1.0	0	2	0	MED4	3.3172E-4	mediator complex subunit 4	2012	2012	0	1	0.4	1		0.8	0.42	0
+1.0	0	115	0	SLC40A1	0.99898	solute carrier family 40 member 1	2011	2011	0	1	0.4	12		0.51	0.88	0
+1.0	0	9	0	NDNF	0.8512	neuron derived neurotrophic factor	2011	2011	0	1	0.4	16		0.6	0.79	0
+1.0	0	3	0	SLC16A6	0.074333	solute carrier family 16 member 6	2011	2011	0	1	0.4	1		0.77	0.38	0
+1.0	0	1	0	MED14		mediator complex subunit 14	2012	2012	0	1	0.4	3		0.81	0.29	0
+1.0	0	6	0	NR1D2	0.0045825	nuclear receptor subfamily 1 group D member 2	2012	2012	0	1	0.4	5		0.63	0.71	0
+1.0	0	1	0	MED16	1.0169E-29	mediator complex subunit 16	2012	2012	0	1	0.4	3		0.74	0.42	0
+1.0	0	4	0	BRD8	0.0012913	bromodomain containing 8	2012	2012	0	1	0.4	1		0.59	0.71	0
+1.0	0	1	0	SMPDL3A	9.7385E-10	sphingomyelin phosphodiesterase acid like 3A	2011	2011	0	1	0.4	2		0.82	0.29	0
+1.0	0	13	0	ANO4	6.1371E-5	anoctamin 4	2011	2011	0	1	0.4	6		0.7	0.54	0
+1.0	0	10	0	AKR1C2	8.7374E-7	aldo-keto reductase family 1 member C2	2011	2011	0	1	0.4	12		0.59	0.71	0
+1.0	0	20	0	LMOD1	0.99979	leiomodin 1	2011	2011	0	1	0.4	8		0.56	0.88	0
+1.0	0	2	0	FAM180A	6.733E-5	family with sequence similarity 180 member A	2011	2011	0	1	0.4	2		0.85	0.21	0
+1.0	0	143	0	ANKH	0.997	ANKH inorganic pyrophosphate transport regulator	2011	2011	0	1	0.4	18		0.56	0.83	0
+1.0	0	0	0	CCL1	1.4343E-4	C-C motif chemokine ligand 1	2019	2019	0	1	0.4	8		0.56	0.88	0
+1.0	0	0	0	SLC20A1	0.01085	solute carrier family 20 member 1	2011	2011	0	1	0.4	4		0.58	0.63	0
+1.0	0	2	0	DCSTAMP	7.8796E-7	dendrocyte expressed seven transmembrane protein	2011	2011	0	1	0.4	3		0.7	0.42	0
+1.0	0	1	0	SPARCL1	1.6082E-10	SPARC like 1	2011	2011	0	1	0.4	5		0.58	0.79	0
+1.0	0	7	0	STC2	0.13827	stanniocalcin 2	2011	2011	0	1	0.4	4		0.55	0.75	0
+1.0	0	4	0	CCNE2	0.94563	cyclin E2	2011	2011	0	1	0.4	9		0.58	0.79	0
+1.0	0	0	0	HS3ST3B1	1.675E-4	heparan sulfate-glucosamine 3-sulfotransferase 3B1	2011	2011	0	1	0.4	1		0.78	0.29	0
+1.0	0	14	0	ARHGAP28	5.4087E-10	Rho GTPase activating protein 28	2011	2011	0	1	0.4	2		0.75	0.5	0
+1.0	0	6	0	CLDN1	0.021021	claudin 1	2011	2011	0	1	0.4	11		0.45	0.88	0
+1.0	0	0	0	SCGB3A1	8.6949E-4	secretoglobin family 3A member 1	2011	2011	0	1	0.4	1		0.6	0.71	0
+1.0	0	38	0	NCOR1	1.0	nuclear receptor corepressor 1	2012	2012	0	1	0.4	21		0.53	0.88	0
+1.0	0	20	0	PLXNC1	7.2242E-4	plexin C1	2011	2011	0	1	0.4	1		0.64	0.71	0
+1.0	0	5	0	CYB5A	0.037924	cytochrome b5 type A	2011	2011	0	1	0.4	6		0.59	0.75	0
+1.0	0	3	0	NR2F6	8.636E-7	nuclear receptor subfamily 2 group F member 6	2012	2012	0	1	0.4	2		0.63	0.54	0
+1.0	0	94	0	NEDD4L	0.99878	NEDD4 like E3 ubiquitin protein ligase	2011	2011	0	1	0.4	12		0.5	0.88	0
+1.0	0	214	0	IFNGR1	4.5748E-4	interferon gamma receptor 1	2011	2011	0	1	0.4	20		0.48	0.92	0
+1.0	0	3	0	IMPA2	5.6433E-8	inositol monophosphatase 2	2011	2011	0	1	0.4	10		0.65	0.58	0
+1.0	0	0	0	AREG	0.0036614	amphiregulin	2011	2011	0	1	0.4	17		0.47	0.79	0
+1.0	0	1	0	RASL11A	3.3592E-6	RAS like family 11 member A	2011	2011	0	1	0.4	2		0.81	0.17	0
+1.0	0	33	0	TACSTD2	3.6014E-6	tumor associated calcium signal transducer 2	2011	2011	0	1	0.4	4		0.49	0.79	0
+1.0	0	2	0	MAOB		monoamine oxidase B	2011	2011	0	1	0.4	22		0.52	0.92	0
+1.0	0	1	0	RGS4	6.4218E-5	regulator of G protein signaling 4	2011	2011	0	1	0.4	3		0.6	0.71	0
+1.0	0	23	0	THRA	0.9989	thyroid hormone receptor alpha	2012	2012	0	1	0.4	12		0.49	0.88	0
+1.0	0	26	0	C1R	0.85504	complement C1r	2011	2011	0	1	0.4	10		0.61	0.71	0
+	0	1	0	FAM163A	0.018936	family with sequence similarity 163 member A			0	0	0.4	1		0.83	0.21	0

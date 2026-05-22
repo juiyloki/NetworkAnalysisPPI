@@ -1,0 +1,27 @@
+SEARCH INFORMATION
+==================
+
+Download Date:       5/10/2026, 7:27:51 PM
+
+SEARCH DETAILS
+--------------
+Search Terms:        Endometriosis (CUI: C0014175)
+Analysis Type:       DISEASES
+Data Type:           Summary
+Source:              CURATED
+Tab:                 GDA
+Total Results:       166
+
+CUSTOM SCORE CONFIGURATION
+--------------------------
+My Score Active:     No
+
+FILTERS APPLIED
+---------------
+score: 0.25
+
+DISPLAY SETTINGS
+----------------
+Visible Columns:     geneSymbol, geneDescription, numDiseasesAssociatedToGene, numVariantsAssociatedToGene, score, sourceScore, numPMIDsupportingAssociation, numberChemsIncludedInEvidence, numberPmidsWithChemsIncludedInEvidence, numDBSNPsupportingAssociation, yearInitial, yearFinal, EI, geneDSI, geneDPI, genepLI, numCTs
+
+==================
