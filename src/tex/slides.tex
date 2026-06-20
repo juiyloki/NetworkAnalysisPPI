@@ -32,51 +32,73 @@
 
 
 
-\begin{frame}{Research question and methods}
-  \begin{block}{}
-    Which set of $k$ proteins, when blocked simultaneously, most effectively limits the propagation of the disease signal in the endometriosis PPI network; and does the optimal set depend on the chosen measure?
-  \end{block}
-
-  \vspace{1em}
-
-  Algorithm types used:
+\begin{frame}{Research questions}
   \begin{itemize}
-    \item group centrality measures,
-    \item diffusion models.
+    \item Which set of $k$ proteins, blocked together, best limits the spread of the disease signal?
+    \item Does the optimal set depend on the chosen algorithm?
   \end{itemize}
 \end{frame}
 
 
 
-\begin{frame}{Data and network construction}
-  Source:
+
+\begin{frame}{Methodology}
+Diffusion models:
   \begin{itemize}
-    \item Genes from DisGeNET, UMLS C0014175, score $\ge 0.25$, 166 total
-    \item Proteins from STRING, confidence $\ge 0.4$, first-shell expansion
+    \item Susceptible-Infected-Recovered (SIR),
+    \item Independent Cascade (IC).
   \end{itemize}
 
   \vspace{0.5em}
 
-  Results:
+Blocking algorithms:
   \begin{itemize}
-    \item 454 nodes and 21{,}095 edges
-    \item Single connected component
-    \item Average degree $\approx 93$, density $\approx 0.205$
+    \item group centrality: greedy group degree, greedy iterative betweenness,
+    \item influence maximization: greedy, run under SIR and IC
   \end{itemize}
 \end{frame}
+
+
+
+
+\begin{frame}{Data Sources and Network Construction}
+  Endometriosis Genes from DisGeNET: https://disgenet.com
+  \begin{itemize}
+    \item Filters: UMLS C0014175, confidence score $\ge 0.25$, 166 genes total
+  \end{itemize}
+  Protein graph from STRING database: https://string-db.org
+  \begin{itemize}
+    \item Filters: confidence score $\ge 0.4$, first-shell expansion, dropped weights
+  \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Network Results}
+  \begin{itemize}
+    \item unweighted,
+    \item undirected,
+    \item connected,
+    \item 454 nodes,
+    \item 21,095 edges,
+    \item average degree $\approx$ 93,
+    \item density $\approx$ 0.205
+  \end{itemize}
+\end{frame}
+
+
 
 
 
 \begin{frame}{Null models}
-  Random graphs as a sanity check: do the PPI numbers differ from random? 
-  All networks are matched on $V = 454$.
+  Random networks as a control group, all share $V = 454$.
 
   \vspace{0.5em}
 
   \begin{itemize}
-    \item Erd\H{o}s-R\'enyi: random edges at 0.205 density
-    \item Barab\'asi-Albert: preferential attachment, $m \approx 53$
-    \item Configuration model: preserved degree sequence
+    \item Erd\H{o}s-R\'enyi
+    \item Barab\'asi-Albert
+    \item Configuration model
   \end{itemize}
 \end{frame}
 
@@ -84,20 +106,20 @@
 
 \begin{frame}{Network statistics}
   \centering
-  \begin{tabular}{lrrrrr}
+  \begin{tabular}{lrrrr}
     \toprule
-     & $|E|$ & Density & Clustering & $\bar{\ell}$ & Assortativity \\
+     & $|E|$ & Density & Clustering & $\bar{\ell}$ \\
     \midrule
-    PPI & 21{,}095 & 0.205 & 0.637 & 1.94 & $\phantom{-}0.052$ \\
-    ER  & 21{,}253 & 0.207 & 0.206 & 1.79 & $-0.005$ \\
-    BA  & 21{,}253 & 0.207 & 0.298 & 1.79 & $-0.019$ \\
-    CM  & 21{,}095 & 0.205 & 0.512 & 1.84 & $-0.181$ \\
+    PPI & 21{,}095 & 0.205 & 0.637 & 1.94 \\
+    ER  & 21{,}253 & 0.207 & 0.206 & 1.79 \\
+    BA  & 21{,}253 & 0.207 & 0.298 & 1.79 \\
+    CM  & 21{,}095 & 0.205 & 0.512 & 1.84 \\
     \bottomrule
   \end{tabular}
 
   \vspace{1em}
 
-  PPI clustering and positive assortativity stand out
+  PPI clustering stands out
 \end{frame}
 
 
@@ -114,7 +136,11 @@
 
 
 \begin{frame}{Diffusion models}
-  Simulate the disease signal spreading. Used to score blocking strategies by how much they reduce propagation.
+  Simulate the disease signal spreading and score blocking strategies by how much they reduce propagation.
+
+  \vspace{0.5em}
+
+  Spread reduction $= 1 - \dfrac{\text{spread for the blocked network}}{\text{spread for the unblocked network}}$
 
   \vspace{0.5em}
 
@@ -122,10 +148,6 @@
     \item SIR, Susceptible-Infected-Recovered: infection rate $\beta$, recovery rate $\gamma$.
     \item IC, Independent Cascade: activation probability $p$.
   \end{itemize}
-
-  \vspace{0.5em}
-
-  Spread reduction $= 1 - \dfrac{\text{spread for the blocked network}}{\text{spread for the unblocked network}}$
 \end{frame}
 
 
@@ -158,33 +180,29 @@
 
 
 
-\begin{frame}{Group-centrality algorithms}
-  Algorithms that pick proteins to block: two structural and one diffusion-aware.
+\begin{frame}{Blocking algorithms}
+  Three algorithms choose the proteins to block: two group-centrality and one influence-maximization.
 
   \vspace{0.5em}
 
   \begin{itemize}
-    \item \texttt{gdeg} - greedy group degree: each step add the node whose neighborhood covers the most uncovered nodes
-    \item \texttt{gbtw} - greedy iterative betweenness: each step remove the current highest-betweenness node
-    \item CELF - Cost-Effective Lazy Forward: each step pick the node whose blocking best reduces simulated spread
+    \item \texttt{gdeg}, greedy group degree: removing hubs,
+    \item \texttt{gbtw}, greedy iterative betweenness: removing bridges,
+    \item \texttt{gim}, greedy influence maximization: reducing spread
   \end{itemize}
 
   \vspace{0.5em}
 
-  CELF runs twice, once under SIR and once under IC.
+  \texttt{gim} runs twice, once under SIR and once under IC.
 \end{frame}
 
 
 
 \begin{frame}{Top 10 picks per chain}
-  Each chain's first ten proteins on the PPI graph.
-
-  \vspace{0.5em}
-
   \centering
   \begin{tabular}{rllll}
     \toprule
-     & \texttt{gdeg} & \texttt{gbtw} & \texttt{celf\_sir} & \texttt{celf\_ic} \\
+     & \texttt{gdeg} & \texttt{gbtw} & \texttt{gim\_sir} & \texttt{gim\_ic} \\
     \midrule
     1  & IL6     & ALB   & FGF4     & CD40    \\
     2  & ESR1    & ESR1  & KDR      & LAG3    \\
@@ -199,9 +217,9 @@
     \bottomrule
   \end{tabular}
 
-  \vspace{0.5em}
+  \vspace{0.4em}
 
-  Structural pair shares 4 of 10; everywhere else, zero overlap.
+  {\footnotesize ESR1: estrogen receptor; FGF4, KDR: angiogenesis; CD40: immune.}
 \end{frame}
 
 
@@ -220,10 +238,6 @@
 \begin{frame}{PPI vs null networks}
   \centering
   \includegraphics[height=0.75\textheight,keepaspectratio]{fig3_ppi_vs_nulls.pdf}
-
-  \vspace{0.3em}
-
-  PPI vs CM under \texttt{gbtw}: 7.8\,pp gap - PPI is more resistant to blocking.
 \end{frame}
 
 
@@ -239,7 +253,7 @@
 
 
 
-\begin{frame}{Conclusion and limitations}
+\begin{frame}{Conclusion}
   The answer to the research question:
 
   \begin{itemize}
@@ -249,11 +263,7 @@
 
   \vspace{0.5em}
 
-  At a realistic small $k$, partial blocking achieves a very modest reduction.
-
-  \vspace{0.5em}
-
-  Main limitations: CELF inner replicates 25 not 50; CELF was not run on nulls; seed cutoff was fixed; single diffusion operating point.
+  At a realistic small $k$, partial blocking reduction is not significant at all.
 \end{frame}
 
 \end{document}
